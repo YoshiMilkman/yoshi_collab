@@ -426,7 +426,8 @@ s32 update_decelerating_speed(struct MarioState *m) {
 }
 
 void update_walking_speed(struct MarioState *m) {
-    f32 maxTargetSpeed = ((m->floor != NULL && m->floor->type == SURFACE_SLOW) ? 24.0f : 32.0f);
+    //Yoshi Milkman: Edit SURFACE_SLOW to reduce speed further
+    f32 maxTargetSpeed = ((m->floor != NULL && m->floor->type == SURFACE_SLOW) ? 15.0f : 34.0f);
 
     f32 targetSpeed = ((m->intendedMag < maxTargetSpeed) ? m->intendedMag : maxTargetSpeed);
 

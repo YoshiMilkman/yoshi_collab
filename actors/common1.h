@@ -230,6 +230,9 @@ extern const Gfx tree_seg3_dl_bubbly[];
 extern const Gfx tree_seg3_dl_spiky[];
 extern const Gfx tree_seg3_dl_snowy_pine[];
 extern const Gfx tree_seg3_dl_palm[];
+//Yoshi Milkman: Put Cherry Tree stuff here
+extern const GeoLayout cool_cherry_tree_geo[];
+extern const Gfx tree_custom_cherry_Cool_Cherry_Tree_mesh_layer_4[];
 
 // warp_pipe
 extern const GeoLayout warp_pipe_geo[];

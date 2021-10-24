@@ -69,3 +69,15 @@ const GeoLayout palm_tree_geo[] = {
    GEO_CLOSE_NODE(),
    GEO_END(),
 };
+
+//Yoshi Milkman: Cherry Blossom Tree
+const GeoLayout cool_cherry_tree_geo[] = {
+   GEO_SHADOW(SHADOW_CIRCLE_4_VERTS, 0x78, 400),
+   GEO_OPEN_NODE(),
+      GEO_CULLING_RADIUS(800),
+      GEO_OPEN_NODE(),
+      GEO_DISPLAY_LIST(LAYER_ALPHA, tree_custom_cherry_Cool_Cherry_Tree_mesh_layer_4),
+      GEO_CLOSE_NODE(),
+   GEO_CLOSE_NODE(),
+   GEO_END(),
+};
