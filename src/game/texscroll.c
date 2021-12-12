@@ -60,8 +60,17 @@ void scroll_textures() {
 		scroll_textures_jrb();
 	}
 
+<<<<<<< HEAD
 	if(SCROLL_CONDITION(sSegmentROMTable[0x7] == (uintptr_t)_lll_segment_7SegmentRomStart)) {
 		scroll_textures_lll();
+=======
+	if(SCROLL_CONDITION(sSegmentROMTable[0x7] == (uintptr_t)_ccm_segment_7SegmentRomStart)) {
+		scroll_textures_ccm();
+	}
+
+	if(SCROLL_CONDITION(sSegmentROMTable[0x7] == (uintptr_t)_ccm_segment_7SegmentRomStart)) {
+		scroll_textures_ccm();
+>>>>>>> 7a8d0bfa3234bcd36aec5150e602cac268da2b60
 	}
 
 }
