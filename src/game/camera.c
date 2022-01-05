@@ -2811,6 +2811,7 @@ void switch_puppycam_enabled(void) {
         // case YOUR_LEVEL:
         case LEVEL_DDD:
         case LEVEL_BITFS:
+        case LEVEL_LLL:
             gPuppyCam.enabled = TRUE;
             break;
         default:
