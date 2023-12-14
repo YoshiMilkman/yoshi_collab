@@ -1,19 +1,19 @@
--- Metal Lighting
+// Metal Lighting
 Lights1 mario_metal_v4_002_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
--- Mario Mustache Lighting
+// Mario Mustache Lighting
 Lights1 mario_mustache_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
--- Mario Skin Lighting
+// Mario Skin Lighting
 Lights1 mario_skin_001_lights = gdSPDefLights1(
 	0x85, 0x79, 0x73,
 	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
 
--- Metal Texture
+// Metal Texture
 Gfx mario_mario_metal_rgba16_tint_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_metal_rgba16_tint_ci8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -275,7 +275,7 @@ u8 mario_mario_metal_rgba16_tint_ci8[] = {
 	
 };
 
--- Metal Cap Pal Texture
+// Metal Cap Pal Texture
 Gfx mario_mario_metal_rgba16_tint_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_metal_rgba16_tint_pal_rgba16[] = {
 	0x00, 0x05, 0x08, 0x45, 0x08, 0x47, 0x10, 0x89, 
@@ -291,7 +291,7 @@ u8 mario_mario_metal_rgba16_tint_pal_rgba16[] = {
 	0xad, 0x6d, 0xad, 0x6f, 
 };
 
--- Overalls Texture
+// Overalls Texture
 Gfx mario_mario_overallsbutton_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_overallsbutton_rgba16[] = {
 	0xff, 0xfe, 0xff, 0xfe, 0xff, 0xfe, 0xff, 0xfe, 
@@ -808,7 +808,7 @@ u8 mario_mario_overallsbutton_rgba16[] = {
 	0xed, 0x00, 0xed, 0x00, 0xed, 0x00, 0xed, 0x00, 
 	
 };
--- Mario Eye Open
+// Mario Eye Open
 Gfx mario_raymarch_eye_attempt5_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_ci8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -1070,7 +1070,7 @@ u8 mario_raymarch_eye_attempt5_ci8[] = {
 	
 };
 
--- Mario Eye Open Pal Texture
+// Mario Eye Open Pal Texture
 Gfx mario_raymarch_eye_attempt5_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_pal_rgba16[] = {
 	0xfd, 0xde, 0xfd, 0xdf, 0xcc, 0xd9, 0x93, 0x93, 
@@ -1124,7 +1124,7 @@ u8 mario_raymarch_eye_attempt5_pal_rgba16[] = {
 	
 };
 
--- Marios Cap
+// Marios Cap
 Gfx mario_mario_logo2_i8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_logo2_i8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -1386,7 +1386,7 @@ u8 mario_mario_logo2_i8[] = {
 	
 };
 
--- Marios Sideburns
+// Marios Sideburns
 Gfx mario_mario_sideburn_raymarch_aa_v1_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_sideburn_raymarch_aa_v1_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -1904,7 +1904,7 @@ u8 mario_mario_sideburn_raymarch_aa_v1_rgba16[] = {
 	
 };
 
--- Mario Eye Halfclose
+// Mario Eye Halfclose
 Gfx mario_raymarch_eye_attempt5_halfclose_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_halfclose_ci8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -2166,7 +2166,7 @@ u8 mario_raymarch_eye_attempt5_halfclose_ci8[] = {
 	
 };
 
--- Mario Eye Halfclose Pal Texture
+// Mario Eye Halfclose Pal Texture
 Gfx mario_raymarch_eye_attempt5_halfclose_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_halfclose_pal_rgba16[] = {
 	0xfd, 0xde, 0xfd, 0xdf, 0xcc, 0xd9, 0x93, 0x93, 
@@ -2225,7 +2225,7 @@ u8 mario_raymarch_eye_attempt5_halfclose_pal_rgba16[] = {
 	0xa4, 0xe7, 0xfe, 0x65, 
 };
 
--- Mario Eye Close Texture
+// Mario Eye Close Texture
 Gfx mario_raymarch_eye_attempt5_close_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_close_ci8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -2487,7 +2487,7 @@ u8 mario_raymarch_eye_attempt5_close_ci8[] = {
 	
 };
 
--- Mario Eye Close Pal Texture
+// Mario Eye Close Pal Texture
 Gfx mario_raymarch_eye_attempt5_close_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_raymarch_eye_attempt5_close_pal_rgba16[] = {
 	0xfd, 0xde, 0xfd, 0xdf, 0xcc, 0xd9, 0x93, 0x93, 
@@ -2525,7 +2525,7 @@ u8 mario_raymarch_eye_attempt5_close_pal_rgba16[] = {
 	
 };
 
--- Mairo Eye Dead / Hurt
+// Mairo Eye Dead / Hurt
 Gfx mario_lila_eye3_2_ci8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_lila_eye3_2_ci8[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -2787,7 +2787,7 @@ u8 mario_lila_eye3_2_ci8[] = {
 	
 };
 
--- Mario Eye Dead / Hurt Pal Texture
+// Mario Eye Dead / Hurt Pal Texture
 Gfx mario_lila_eye3_2_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_lila_eye3_2_pal_rgba16[] = {
 	0xfd, 0x9f, 0xe5, 0x1f, 0x93, 0x53, 0x62, 0x4d, 
@@ -2814,7 +2814,7 @@ u8 mario_lila_eye3_2_pal_rgba16[] = {
 	0x39, 0x49, 0x7a, 0x8f, 0x20, 0x85, 
 };
 
--- Marios Wing Cap Texture
+// Marios Wing Cap Texture
 Gfx mario_wing_raymarch_alpha_test_v0_ia8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_wing_raymarch_alpha_test_v0_ia8[] = {
 	0x70, 0x80, 0x80, 0x90, 0xa0, 0xa0, 0xa0, 0xb0, 
@@ -3332,7 +3332,7 @@ u8 mario_wing_raymarch_alpha_test_v0_ia8[] = {
 	
 };
 
--- Mario Hand Texture
+// Mario Hand Texture
 Gfx mario_Unbenannt_1_i8_aligner[] = {gsSPEndDisplayList()};
 u8 mario_Unbenannt_1_i8[] = {
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -3354,7 +3354,7 @@ u8 mario_Unbenannt_1_i8[] = {
 	
 };
 
--- Mario Wing Cap 2 Texture
+// Mario Wing Cap 2 Texture
 Gfx mario_wing_2_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_wing_2_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -3872,7 +3872,7 @@ u8 mario_wing_2_rgba16[] = {
 	
 };
 
--- Marios Shoe Texture
+// Marios Shoe Texture
 Gfx mario_mario_shoe_ci4_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_shoe_ci4[] = {
 	0x00, 0x00, 0x01, 0x23, 0x33, 0x33, 0x33, 0x33, 
@@ -3886,7 +3886,7 @@ u8 mario_mario_shoe_ci4[] = {
 	
 };
 
-Marios Shoe Texture Pal Texture
+// Marios Shoe Texture Pal Texture
 Gfx mario_mario_shoe_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
 u8 mario_mario_shoe_pal_rgba16[] = {
 	0x9a, 0x45, 0x92, 0x05, 0x81, 0x83, 0x69, 0x01, 
