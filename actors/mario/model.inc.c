@@ -6209,7 +6209,7 @@ Gfx mat_mario_mustache[] = {
 	gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, PRIMITIVE, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetTextureFilter(G_TF_POINT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 36, 13, 0, 255),
+	gsDPSetPrimColor(0, 0, 0, 0, 0, 0),
 	gsSPSetLights1(mario_mustache_lights),
 	gsSPEndDisplayList(),
 };
