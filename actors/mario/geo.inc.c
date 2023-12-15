@@ -1,4 +1,3 @@
-#include "src/game/envfx_snow.h"
 
 const GeoLayout mario_001_switch_opt0_000_switch_opt1_switch_face_opt1[] = {
 	GEO_NODE_START(),
