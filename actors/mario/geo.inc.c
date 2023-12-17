@@ -1,3 +1,4 @@
+#include "src/game/envfx_snow.h"
 
 const GeoLayout mario_001_switch_opt0_000_switch_opt1_switch_face_opt1[] = {
 	GEO_NODE_START(),
@@ -104,7 +105,6 @@ const GeoLayout mario_left_hand_wing_cap_armature[] = {
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 60, 0, 0, mario_006_switch_option_left_hand_wing_cap_mesh_layer_1),
 		GEO_OPEN_NODE(),
-			GEO_DISPLAY_LIST(LAYER_OPAQUE, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_1),
 			GEO_DISPLAY_LIST(LAYER_ALPHA, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
@@ -215,7 +215,6 @@ const GeoLayout mario_001_switch_opt1_jump_mario_left_hand_wing_cap_armature[] =
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 60, 0, 0, mario_006_switch_option_left_hand_wing_cap_mesh_layer_1),
 		GEO_OPEN_NODE(),
-			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_1),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
@@ -472,7 +471,6 @@ const GeoLayout mario_001_switch_opt2_jump_mario_left_hand_wing_cap_armature[] =
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_OPAQUE, 60, 0, 0, mario_006_switch_option_left_hand_wing_cap_mesh_layer_1_mat_override_metal_v4_002_0),
 		GEO_OPEN_NODE(),
-			GEO_DISPLAY_LIST(LAYER_OPAQUE, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_1_mat_override_metal_v4_002_0),
 			GEO_DISPLAY_LIST(LAYER_ALPHA, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_mat_override_metal_v4_002_0),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
@@ -673,7 +671,6 @@ const GeoLayout mario_001_switch_opt3_jump_mario_left_hand_wing_cap_armature[] =
 	GEO_OPEN_NODE(),
 		GEO_ANIMATED_PART(LAYER_TRANSPARENT, 60, 0, 0, mario_006_switch_option_left_hand_wing_cap_mesh_layer_1_mat_override_metal_v4_002_0),
 		GEO_OPEN_NODE(),
-			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_1_mat_override_metal_v4_002_0),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, mario_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_mat_override_metal_v4_002_0),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
