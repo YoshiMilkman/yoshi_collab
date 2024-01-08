@@ -135,7 +135,7 @@ LINK_LIBRARIES = $(foreach i,$(LIBRARIES),-l$(i))
 #==============================================================================#
 
 # Default non-gcc opt flags
-DEFAULT_OPT_FLAGS = -Ofast
+DEFAULT_OPT_FLAGS = -Ofast -O3
 
 # Main opt flags
 GCC_MAIN_OPT_FLAGS = \
@@ -146,7 +146,8 @@ GCC_MAIN_OPT_FLAGS = \
   -finline-limit=1 \
   -freorder-blocks-algorithm=simple  \
   -ffunction-sections \
-  -fdata-sections
+  -fdata-sections \
+  -O3
 
 # Surface Collision
 GCC_COLLISION_OPT_FLAGS = \
@@ -159,7 +160,8 @@ GCC_COLLISION_OPT_FLAGS = \
   -freorder-blocks-algorithm=simple  \
   -ffunction-sections \
   -fdata-sections \
-  -falign-functions=32
+  -falign-functions=32 \
+  -O3
 
 # Math Util
 GCC_MATH_UTIL_OPT_FLAGS = \
@@ -169,7 +171,8 @@ GCC_MATH_UTIL_OPT_FLAGS = \
   --param case-values-threshold=20  \
   -ffunction-sections \
   -fdata-sections \
-  -falign-functions=32
+  -falign-functions=32 \
+  -O3 
 #   - setting any sort of -finline-limit has shown to worsen performance with math_util.c,
 #     lower values were the worst, the higher you go - the closer performance gets to not setting it at all
 
@@ -183,7 +186,8 @@ GCC_GRAPH_NODE_OPT_FLAGS = \
   -freorder-blocks-algorithm=simple  \
   -ffunction-sections \
   -fdata-sections \
-  -falign-functions=32
+  -falign-functions=32 \
+  -O3
 #==============================================================================#
 
 ifeq ($(COMPILER),gcc)
